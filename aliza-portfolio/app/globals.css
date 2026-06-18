@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  scroll-behavior: smooth;
+}
+
+html:not(.dark) {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+::selection {
+  background: rgba(76, 201, 255, 0.3);
+}
+
+html:not(.dark) .light-title {
+  color: #08111f;
+}
+
+html:not(.dark) .light-muted {
+  color: #4c5d70;
+}
+
+html:not(.dark) .light-panel {
+  border-color: rgba(8, 17, 31, 0.11);
+  background: rgba(255, 255, 255, 0.72);
+  color: #08111f;
+}
+
+html:not(.dark) .light-nav {
+  border-color: rgba(8, 17, 31, 0.1);
+  background: rgba(255, 255, 255, 0.78);
+  color: #08111f;
+}
+
+html:not(.dark) .light-visual {
+  background: rgba(8, 17, 31, 0.84);
+}
+
+html:not(.dark) .light-node {
+  background: rgba(8, 17, 31, 0.86);
+  color: white;
+}
+
+html:not(.dark) .light-input {
+  border-color: rgba(8, 17, 31, 0.14);
+  background: rgba(255, 255, 255, 0.72);
+  color: #08111f;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
