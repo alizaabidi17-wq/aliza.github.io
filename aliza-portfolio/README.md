@@ -26,6 +26,18 @@ npm run dev
 4. Build command: `npm run build`.
 5. Output directory: `.next`.
 
+## Deploy To Netlify
+
+Use these settings:
+
+```text
+Base directory: aliza-portfolio
+Build command: npm run build
+Publish directory: out
+```
+
+This project is configured for static export, so Netlify should publish the generated `out` folder.
+
 ## Placeholder Areas
 
 - Resume: replace `public/resume/Aliza-Abidi-Resume.pdf` with the real PDF.
